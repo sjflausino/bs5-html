@@ -15,19 +15,20 @@
     <div class="container">
         <form action="" method="post">
             <div class="mb-3">
+                <br>
                 <label for="" class="form-label">Nome</label>
-                <input type="text" class="form-control" name="nome_funcionario" id="nome_funcionario" aria-describedby="helpId"
-                    placeholder="Nome do Funcionário" maxlength="50" size="3" required />
+                <input type="text" class="form-control form-control-sm" name="nome_funcionario" id="nome_funcionario" aria-describedby="helpId"
+                    placeholder="Nome do Funcionário" maxlength="50" minlength="3" required />
                 <small id="helpId" class="form-text text-muted">digite o nome do funcionário neste campo</small>
                 <br>
                 <label for="" class="form-label">CPF</label>
                 <input type="text" class="form-control form-control-sm" name="cpf" id="cpf" aria-describedby="helpId"
-                    placeholder="111.222.333-44" maxlength="14" size="14" required />
+                    placeholder="111.222.333-44" maxlength="14" minlength="14" required />
                 <small id="helpId" class="form-text text-muted">digite o CPF do funcionário neste campo</small>
                 <br>
                 <label for="" class="form-label">Senha</label>
                 <input type="password" class="form-control form-control-sm" name="senha" id="senha" aria-describedby="helpId"
-                    placeholder="****" maxlength="10" size="4" required />
+                    placeholder="****" maxlength="10" minlength="4" required />
                 <small id="helpId" class="form-text text-muted">digite o a senha do funcionario neste campo</small>
                 <br>                
                 <label for="" class="form-label">Email</label>
@@ -37,8 +38,9 @@
                 <br>
                 <label for="" class="form-label">Tipo</label>
                 <input type="text" class="form-control form-control-sm" name="tipo" id="tipo" aria-describedby="helpId"
-                    placeholder="1" maxlength="1" size="1" required />
+                    placeholder="A" maxlength="1" size="1" required />
                 <small id="helpId" class="form-text text-muted">digite o tipo do funcionário neste campo</small>
+                <br>
                 <br>
                 <button type="submit" class="btn btn-primary">
                     Submit
